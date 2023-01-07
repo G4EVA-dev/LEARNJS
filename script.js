@@ -30,3 +30,8 @@ function getValue(){
     var getVal = prompt("Enter your name: ", " your name here");
     document.write("You have entered: " + getVal);
 }
+
+var str = new String("This is a New String");
+console.log(str);
+document.write("str.constructor is:" + str.constructor + "</br>");
+document.write("str.length is:" + str.length);
